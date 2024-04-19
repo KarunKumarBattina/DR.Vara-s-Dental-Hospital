@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DR.Vara's Dental Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="container-fluid p-0 " id="up">
+        <div class="bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10 text-center d-flex pt-3 pb-2 hr">
+                        <h6 class="me-5"><i class="bi bi-envelope me-2"></i>vara@gmail.com</h6>
+                        <h6><i class="bi bi-telephone me-1"></i>+91- 9998887770</h6>
+                    </div>
+                    <div class="col-2 d-flex br pt-3">
+                        <h6><i class="bi bi-facebook ms-3"></i></h6>
+                        <h6><i class="bi bi-instagram"></i></h6>
+                        <h6><i class="bi bi-twitter-x"></i></h6>
+                        <h6><i class="bi bi-linkedin"></i></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="container-fluid px-0 sticky-top bg-white lrg ">
+            <div class="container ">
+            <div class="row">
+                <div class="col-6 text-start">
+                    <img src="Assets/Group 8.png" alt="logo">
+                </div>
+                <div class="col-6 text-end mt-4">
+                    <a href="#up" class="text-decoration-none"><button class="fw-medium bt px-4 py-3 text-white apt">BOOK APPOINTMENT</button></a>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        <section class="container-fluid p-0">
+            <div class="row container-fluid m-0 p-0">
+                <div class="col-12 col-xl-9 p-0">
+                    <img src="Assets/Frame 10.png" class="w-100" alt="banner">
+                </div>
+                <div class="col-12 col-xl-3 mt-2 mt-xl-0 but">
+                    <div class="card-body bg-primary bta">
+                        <div class="container text-center text-white">
+                            <h5 class="fw-bold pt-2">BOOK AN <br>APPOINTMENT <br>TODAY</h5>
+                            <form onsubmit="return validation()" class="text-black pare ">
+                                <div class="container text-center">
+                                    <div class="   col-md-8 col-lg-12 ">
+                                      <input
+                                        type="text"
+                                        name="username" id="username" class="form-control" placeholder="NAME"
+                                      />
+                                      <p id="nameNote" class="text-white text-start"></p>
+                                    </div>
+                        
+                                    <div class="col-md-8 col-lg-12">
+                                      <input type="text" name="email" id="email"  class="form-control"  placeholder="EMAIL">
+                                      <p id="emailNote" class="text-white text-start"></p>
+                                    </div>
+                                    
+                                    <div class="   col-md-8 col-lg-12">
+                                      <input type="text" name="mobile" id="mobile" class="form-control"  placeholder="PHONE">
+                                        <p id="mobileNote" class="text-white text-start"></p>
+                                    </div>
+                                    <div class="   col-md-8 col-lg-12 ">
+                                        <select
+                                                class="form-select form-select-lg fs-6"
+                                                name=""
+                                                id=""
+                                                required
+                                            >
+                                                <option selected hidden>LOCATION</option>
+                                                <option value="">Yizag</option>
+                                                <option value="">Hyderabad</option>
+                                                <option value="">Kakinada</option>
+                                            </select>    
+                                    </div>
+                                    <div class="   col-md-8 col-lg-12 mt-3">
+                                        <input type="date" name="" id="date" class="form-control"  placeholder="">
+                                    </div>
+                                    <div class="col-md-8 col-lg-12 pt-3">
+                                      <input class="text-white w-100 mb-2 btn bg-danger" type="submit" id="note" required></input>
+                                    </div>
+                                </div>
+                            </form>
+                                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container text-center mt-3">
+            <h5 class="fw-bold">OUR SERVICES</h5>
+            <h1 class="fw-bold what">What We Provide</h1>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top " src="Assets/treat1.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Tooth Extraction</h4>
+                            <p class="card-text fw-medium pb-5">A tooth extraction, or dental extraction, is a routine procedure where a dentist removes a tooth from its jawbone socket. This can be necessary for severe decay, gum disease, impacted teeth, or other reasons.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat.2.avif" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Tooth Filling</h4>
+                            <p class="card-text fw-medium">In dentistry, fillings repair damaged or decayed teeth. This common procedure restores a tooth's functionality, shape, and overall health by removing decay and filling the cavity with a durable material. Fillings prevent further deterioration and promote good oral health.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/trat3.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Tooth Scaling</h4>
+                            <p class="card-text fw-medium">Tooth scaling, a deep clean for your teeth, goes beyond brushing. It removes stubborn plaque and tartar buildup, both above and below the gum line. This prevents gum disease, which can loosen teeth and harm your overall health.  Think of it as a power wash for your smile!.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat4.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Dental Implants</h4>
+                            <p class="card-text fw-medium pb-4">Dental implants are a revolutionary and highly effective dental treatment used to replace missing teeth. They provide a permanent and natural-looking solution for individuals who have lost teeth due to injury, decay, or other dental issues. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+        
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat5.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Orthodontic Treatments</h4>
+                            <p class="card-text fw-medium">Orthodontic treatments use various dental appliances and procedures to fix misaligned teeth and jaws. While they create a straighter smile, these treatments also improve your oral health and function by ensuring proper bite and making teeth easier to clean. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat6.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Laser Treatment</h4>
+                            <p class="card-text fw-medium pb-5">Lasers have transformed dentistry, enabling a variety of gentle procedures. Unlike traditional methods, these offer several benefits, making dental care more comfortable and effective. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat7.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Root Canal Treatments</h4>
+                            <p class="card-text fw-medium">Root canals (root canal treatment) address severely infected or damaged teeth. This common procedure saves the tooth by removing infected pulp, cleaning the inside, and sealing it. It relieves pain, prevents future problems, and lets you keep your natural tooth. </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat8.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Tooth Caps</h4>
+                            <p class="card-text fw-medium">Dental crowns, or tooth caps, aren't one-size-fits-all. They come in a range of materials, each with its own strengths and drawbacks. This variety allows dentists to choose the best option for your specific needs, whether it's prioritizing durability, a natural look, or avoiding metal allergies.  </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card text-start irg">
+                        <img class="card-img-top" src="Assets/treat9.jpg" alt="Title" />
+                        <div class="card-body">
+                            <h4 class="card-title fw-bold py-2">Aesthetic Restorations</h4>
+                            <p class="card-text fw-medium pb-4">Aesthetic restorations are a modern dental approach that prioritizes both function and beauty.
+                            Often achieved through composite fillings, these restorations aim to preserve maximum natural tooth structure while creating a natural look.
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container-fluid p-0 bg-light py-5">
+            <div class="container text-center">
+                <h5 class="fw-bold text-primary mt-3">TESTIMONIALS</h5>
+                <h1 class="fw-bold what">What Our Clients Says</h1>
+
+                <div class="owl-carousel owl-theme mt-3">
+                    
+
+                    <div class="item">
+                        <div class="card bg-dark test text-white border-0">
+                            <div class="card-title">
+                                <div class="row mb-2">
+                                    <div class="col-6"><img class="card-img-top img-fluid tes" src="Assets/Testi/profile2.avif" alt="img" /></div>
+                                    <div class="col-6">
+                                        <h4 class="card-title text-white mt-2">Krishna</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0 text-center">
+                                <p class="card-text">Great time visiting the Hospital soothing ambience of the clinic is very unique. Highly recommended.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card bg-dark test text-white border-0">
+                            <div class="card-title">
+                                <div class="row mb-2">
+                                    <div class="col-6"><img class="card-img-top img-fluid tes" src="Assets/Testi/profile3.jpg" alt="img" /></div>
+                                    <div class="col-6">
+                                        <h4 class="card-title text-white mt-2">Priya</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0 text-center">
+                                <p class="card-text">Less Fee with Very convenient appointment and approach. Capping was also done perfectly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card bg-dark test text-white border-0">
+                            <div class="card-title">
+                                <div class="row mb-2">
+                                    <div class="col-6"><img class="card-img-top img-fluid tes" src="Assets/Testi/profile4.webp" alt="img" /></div>
+                                    <div class="col-6">
+                                        <h4 class="card-title text-white mt-2">Varsha</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0 text-center">
+                                <p class="card-text">The doctors explained me about the problem quite clearly and treated me with the best option.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card bg-dark test text-white border-0">
+                            <div class="card-title">
+                                <div class="row mb-2">
+                                    <div class="col-6"><img class="card-img-top img-fluid tes" src="Assets/Testi/profile5.jpg" alt="img" /></div>
+                                    <div class="col-6">
+                                        <h4 class="card-title text-white mt-2">Kavya</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0 text-center">
+                                <p class="card-text">I had a wonderful experience with Dr Vara. I had dental implant, root canal and cavity fillings done at the clinic</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card bg-dark test text-white border-0">
+                            <div class="card-title">
+                                <div class="row mb-2">
+                                    <div class="col-6"><img class="card-img-top img-fluid tes" src="Assets/Testi/profile1.jpg" alt="img" /></div>
+                                    <div class="col-6">
+                                        <h4 class="card-title text-white mt-2">Arun</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body pt-0 text-center">
+                                <p class="card-text">Best Hospital here, the doctor is highly experienced. The team of doctors and staff is doing a wonderful job.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="container text-center mt-5">
+            <h5 class="fw-bold text-primary ">EXCELLENCE IN EVERY SMILE</h5>
+            <h1 class="fw-bold what">Discover world-class dentistry with
+                Dr.Vara's Dental Hospitals
+            </h1>
+            <div class="row justify-content-center my-5 ps-4 ps-md-0 ">
+                <div class="col-12 col-md-6 col-xl-4 text-start mb-3">
+                    <h5><i class="bi bi-check-circle me-3 text-primary"></i>State-of-the-Art Infrastructure</h5>
+                    <h5><i class="bi bi-check-circle me-3 text-primary"></i>Experienced and Qualified Doctors</h5>
+                    <h5><i class="bi bi-check-circle me-3 text-primary"></i>Comprehensive Range of Services</h5>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 text-start">
+                    <h5><i class="bi bi-check-circle me-3 text-primary"></i>Personalized Care and Attention</h5>
+                    <h5><i class="bi bi-check-circle me-3 text-primary"></i>Emergency Dental Care</h5>
+                    <h5><i class="bi bi-check-circle me-3 text-primary"></i>Affordable Treatment Options</h5>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid p-0 pt-3">
+            <div class="container text-center">
+                <h5 class="fw-bold mt-3 text-primary">LOCATIONS</h5>
+                <h1 class="fw-bold what mb-5">Our Locations</h1>
+                <div class="row justify-content-center pb-5">
+                   <div class="col-11 col-md-6 col-lg-4">
+                    <div class="card-body">
+                        <div class="card-title text-start fs-4 fw-medium">
+                            KAKINADA
+                        </div>
+                        <div class="card-img-top">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122110.55939504293!2d82.16483092753147!3d16.97676460259897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3827ddaf59b4f7%3A0x92f8ddb9c89a4803!2sKakinada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1710818903113!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                       </div>
+                   </div>
+
+                   <div class="col-11 col-md-6 col-lg-4">
+                    <div class="card-body">
+                        <div class="card-title text-start fs-4 fw-medium">
+                            YIZAG
+                        </div>
+                        <div class="card-img-top">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486416.95439884125!2d82.93293171066571!3d17.738396991828747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1710822222705!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                       </div>
+                   </div>
+
+                   <div class="col-11 col-md-6 col-lg-4">
+                    <div class="card-body">
+                        <div class="card-title text-start fs-4 fw-medium">
+                            HYDERABAD
+                        </div>
+                        <div class="card-img-top">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d487295.07596630906!2d77.81704277696458!3d17.412134087671774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1710822310916!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid p-0 ot">
+            <p class=" m-0 ms-3"> © KarunKumar</p>
+            <a href="#up"><i class="bi bi-arrow-up-circle-fill fs-1 me-3"></i></a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    navText:["←","→"],
+    responsive:{
+        476:{
+            items:1
+        },
+        676:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+    })
+    </script>
+</body>
+</html>
